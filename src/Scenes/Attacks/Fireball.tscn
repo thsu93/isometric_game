@@ -1,0 +1,58 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://src/Scenes/Attacks/Explosion.anim" type="Animation" id=1]
+[ext_resource path="res://src/Scenes/Attacks/Explosion.tres" type="SpriteFrames" id=2]
+[ext_resource path="res://src/Scenes/Attacks/Fireball.tres" type="SpriteFrames" id=3]
+[ext_resource path="res://src/Scenes/Attacks/Fireball.gd" type="Script" id=4]
+[ext_resource path="res://src/Scenes/Attacks/Projectile.gd" type="Script" id=5]
+
+[sub_resource type="CapsuleShape2D" id=1]
+height = 31.7862
+
+[sub_resource type="Animation" id=2]
+resource_name = "Fireball_LU"
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:animation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 1,
+"values": [  ]
+}
+
+[node name="Fireball" type="KinematicBody2D"]
+position = Vector2( -0.735046, 0 )
+scale = Vector2( 4, 4 )
+collision_layer = 4
+collision_mask = 26
+script = ExtResource( 5 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+position = Vector2( -0.277008, -0.277 )
+frames = ExtResource( 3 )
+animation = "Fireball_R"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 5.07486, -0.183945 )
+rotation = 1.5708
+shape = SubResource( 1 )
+
+[node name="explosion" type="AnimatedSprite" parent="."]
+visible = false
+frames = ExtResource( 2 )
+animation = "Explosion"
+frame = 31
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Explosion = ExtResource( 1 )
+anims/Fireball_LU = SubResource( 2 )
+
+[node name="AttackData" type="Node" parent="."]
+script = ExtResource( 4 )
+animated_sprite = NodePath("../Sprite")
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]
+[connection signal="animation_started" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_started"]

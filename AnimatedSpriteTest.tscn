@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/CharSprites/AssassinDiablo/Char_Animated_Sprite.tres" type="SpriteFrames" id=1]
+
+[node name="AnimatedSprite" type="AnimatedSprite"]
+position = Vector2( 5.24619, 3.64151 )
+scale = Vector2( 2.99376, 3.08329 )
+frames = ExtResource( 1 )
+animation = "Attack1SE"

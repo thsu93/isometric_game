@@ -1,0 +1,186 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://addons/dialogue_tree/scripts/dialogue.gd" type="Script" id=1]
+[ext_resource path="res://addons/dialogue_tree/resource/dialogue_tree.gd" type="Script" id=2]
+[ext_resource path="res://addons/dialogue_tree/assets/ResIcon.png" type="Texture" id=3]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 2 )
+__meta__ = {
+"_editor_icon": ExtResource( 3 )
+}
+connections = [ {
+"from": "StartNode",
+"from_port": 0,
+"to": "BasicDialogue",
+"to_port": 0
+}, {
+"from": "BasicDialogue",
+"from_port": 0,
+"to": "ChoiceDialogue",
+"to_port": 0
+}, {
+"from": "ChoiceDialogue",
+"from_port": 0,
+"to": "BasicDialogue2",
+"to_port": 0
+}, {
+"from": "ChoiceDialogue",
+"from_port": 1,
+"to": "BasicDialogue3",
+"to_port": 0
+}, {
+"from": "ChoiceDialogue",
+"from_port": 2,
+"to": "BasicDialogue4",
+"to_port": 0
+}, {
+"from": "BasicDialogue2",
+"from_port": 0,
+"to": "EndNode",
+"to_port": 0
+}, {
+"from": "BasicDialogue3",
+"from_port": 0,
+"to": "EndNode",
+"to_port": 0
+}, {
+"from": "BasicDialogue4",
+"from_port": 0,
+"to": "EndNode",
+"to_port": 0
+} ]
+Nodes = [ {
+"filename": "res://addons/dialogue_tree/scenes/StartNode.tscn",
+"name": "StartNode",
+"rect_size_x": 88.0,
+"rect_size_y": 55.0,
+"rect_x": 120.0,
+"rect_y": 180.0
+}, {
+"Actor": "1",
+"Dialogue": "2",
+"RefName": "test",
+"filename": "res://addons/dialogue_tree/scenes/BasicDialogue.tscn",
+"name": "BasicDialogue",
+"rect_size_x": 172.0,
+"rect_size_y": 114.0,
+"rect_x": 320.0,
+"rect_y": 160.0
+}, {
+"Conditonal": false,
+"RefName": "test2",
+"choices": [ {
+"Conditional": "",
+"Dialogue": "1",
+"ToolTip": ""
+}, {
+"Conditional": "",
+"Dialogue": "2",
+"ToolTip": ""
+}, {
+"Conditional": "",
+"Dialogue": "3",
+"ToolTip": ""
+} ],
+"filename": "res://addons/dialogue_tree/scenes/ChoiceDialogue.tscn",
+"name": "ChoiceDialogue",
+"rect_size_x": 213.0,
+"rect_size_y": 168.0,
+"rect_x": 540.0,
+"rect_y": 160.0
+}, {
+"filename": "res://addons/dialogue_tree/scenes/EndNode.tscn",
+"name": "EndNode",
+"rect_size_x": 82.0,
+"rect_size_y": 55.0,
+"rect_x": 1220.0,
+"rect_y": 200.0
+}, {
+"Actor": "3",
+"Dialogue": "3",
+"RefName": "3",
+"filename": "res://addons/dialogue_tree/scenes/BasicDialogue.tscn",
+"name": "BasicDialogue4",
+"rect_size_x": 172.0,
+"rect_size_y": 114.0,
+"rect_x": 840.0,
+"rect_y": 380.0
+}, {
+"Actor": "1",
+"Dialogue": "1",
+"RefName": "1",
+"filename": "res://addons/dialogue_tree/scenes/BasicDialogue.tscn",
+"name": "BasicDialogue2",
+"rect_size_x": 172.0,
+"rect_size_y": 114.0,
+"rect_x": 840.0,
+"rect_y": 140.0
+}, {
+"Actor": "2",
+"Dialogue": "2",
+"RefName": "2",
+"filename": "res://addons/dialogue_tree/scenes/BasicDialogue.tscn",
+"name": "BasicDialogue3",
+"rect_size_x": 172.0,
+"rect_size_y": 114.0,
+"rect_x": 840.0,
+"rect_y": 260.0
+} ]
+DialogueTree = {
+"dialogue": [ {
+"Actor": "1",
+"Dialogue": "2",
+"NodeName": "BasicDialogue",
+"Ref": "test",
+"next": 1
+}, {
+"Choices": [ {
+"Conditional": "",
+"Dialogue": "1",
+"PassCondition": true,
+"ToolTip": "",
+"next": 3
+}, {
+"Conditional": "",
+"Dialogue": "2",
+"PassCondition": true,
+"ToolTip": "",
+"next": 4
+}, {
+"Conditional": "",
+"Dialogue": "3",
+"PassCondition": true,
+"ToolTip": "",
+"next": 2
+} ],
+"Conditonal": false,
+"NodeName": "ChoiceDialogue",
+"Ref": "test2"
+}, {
+"Actor": "3",
+"Dialogue": "3",
+"NodeName": "BasicDialogue4",
+"Ref": "3",
+"next": "End"
+}, {
+"Actor": "1",
+"Dialogue": "1",
+"NodeName": "BasicDialogue2",
+"Ref": "1",
+"next": "End"
+}, {
+"Actor": "2",
+"Dialogue": "2",
+"NodeName": "BasicDialogue3",
+"Ref": "2",
+"next": "End"
+} ],
+"start_index": 0
+}
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Dialogue" type="Node" parent="."]
+script = ExtResource( 1 )
+DialogueResource = SubResource( 1 )

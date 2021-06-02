@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://src/Scenes/GameWorld/map.tscn" type="PackedScene" id=1]
+[ext_resource path="res://src/Scenes/Character/Char.tscn" type="PackedScene" id=2]
+[ext_resource path="res://src/Scripts/GameManager.gd" type="Script" id=3]
+[ext_resource path="res://src/Scenes/UI/UI.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/Scenes/GameWorld/Interactable.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/Scenes/UI/Camera.gd" type="Script" id=6]
+[ext_resource path="res://src/Scenes/GameWorld/Walls.tscn" type="PackedScene" id=8]
+[ext_resource path="res://src/Scripts/Explosion_Spawner.gd" type="Script" id=9]
+
+[node name="World" type="Node2D"]
+script = ExtResource( 3 )
+title_scene = "res://src/Scenes/Title/Title.tscn"
+player_path = NodePath("YSortMaster/Player/Player")
+UI_control_path = NodePath("CanvasLayer/Control")
+camera_path = NodePath("Camera2D")
+spawn_layer_path = NodePath("YSortMaster/Spawns")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+smoothing_enabled = true
+script = ExtResource( 6 )
+
+[node name="Map" parent="." instance=ExtResource( 1 )]
+tile_data = PoolIntArray( -65531, 9, 0, 131082, 8, 0 )
+
+[node name="YSortMaster" type="YSort" parent="."]
+
+[node name="Barrels" type="YSort" parent="YSortMaster"]
+position = Vector2( 0, 1.58667 )
+
+[node name="Player" type="YSort" parent="YSortMaster"]
+
+[node name="Player" parent="YSortMaster/Player" instance=ExtResource( 2 )]
+
+[node name="Objects" type="YSort" parent="YSortMaster"]
+
+[node name="StaticBody2D" parent="YSortMaster/Objects" instance=ExtResource( 5 )]
+position = Vector2( 1517.48, -209.212 )
+
+[node name="Walls" parent="YSortMaster/Objects" instance=ExtResource( 8 )]
+position = Vector2( 14.0132, 30.3468 )
+
+[node name="Spawns" type="YSort" parent="YSortMaster"]
+script = ExtResource( 9 )
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Control" parent="CanvasLayer" instance=ExtResource( 4 )]
+anchor_left = -1.24176e-10
+margin_left = -2.15777
+margin_top = -2.27766
+margin_right = -2.15771
+margin_bottom = -2.27771
+[connection signal="damage_taken" from="YSortMaster/Player/Player" to="." method="_on_Char_damage_taken"]
+[connection signal="game_over" from="YSortMaster/Player/Player" to="." method="_on_Char_game_over"]
+[connection signal="start_dialogue" from="YSortMaster/Objects/StaticBody2D" to="." method="_on_StaticBody2D_start_dialogue"]
+[connection signal="dialogue_finished" from="CanvasLayer/Control" to="." method="_on_Control_dialogue_finished"]
+[connection signal="special_change" from="CanvasLayer/Control" to="." method="_on_Control_special_change"]

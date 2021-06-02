@@ -1,0 +1,107 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://assets/UI/new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://src/Scripts/Title.gd" type="Script" id=2]
+[ext_resource path="res://src/Scenes/Title/Exit.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/Scenes/Title/Options.tscn" type="PackedScene" id=4]
+[ext_resource path="res://src/Scenes/Title/FadeIN.tscn" type="PackedScene" id=5]
+[ext_resource path="res://src/Scenes/Title/New Game.tscn" type="PackedScene" id=6]
+[ext_resource path="res://src/Scenes/Title/Continue.tscn" type="PackedScene" id=7]
+[ext_resource path="res://assets/UI/PNG/grey_crossGrey.png" type="Texture" id=8]
+[ext_resource path="res://assets/UI/PNG/blue_button13.png" type="Texture" id=9]
+
+
+
+
+[node name="Title" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="VBoxContainer" parent="."]
+margin_left = 120.0
+margin_top = 80.0
+margin_right = 1800.0
+margin_bottom = 1000.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Logo" type="TextureRect" parent="Menu"]
+margin_right = 1680.0
+margin_bottom = 200.0
+rect_min_size = Vector2( 1680, 200 )
+texture = ExtResource( 9 )
+stretch_mode = 1
+
+[node name="Label" type="Label" parent="Menu/Logo"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_scale = Vector2( 1.00085, 1.0128 )
+custom_fonts/font = ExtResource( 1 )
+text = "Game Title"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Menu"]
+margin_top = 204.0
+margin_right = 1680.0
+margin_bottom = 920.0
+size_flags_vertical = 3
+
+[node name="Buttons" type="VBoxContainer" parent="Menu/HBoxContainer"]
+margin_right = 838.0
+margin_bottom = 716.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button" parent="Menu/HBoxContainer/Buttons" instance=ExtResource( 6 )]
+margin_right = 838.0
+margin_bottom = 176.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+action_mode = 0
+flat = false
+
+[node name="Button2" parent="Menu/HBoxContainer/Buttons" instance=ExtResource( 7 )]
+margin_top = 180.0
+margin_right = 838.0
+margin_bottom = 356.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button3" parent="Menu/HBoxContainer/Buttons" instance=ExtResource( 4 )]
+margin_top = 360.0
+margin_right = 838.0
+margin_bottom = 536.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button4" parent="Menu/HBoxContainer/Buttons" instance=ExtResource( 3 )]
+margin_top = 540.0
+margin_right = 838.0
+margin_bottom = 716.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CenterContainer" type="CenterContainer" parent="Menu/HBoxContainer"]
+margin_left = 842.0
+margin_right = 1680.0
+margin_bottom = 716.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="grey_crossGrey" type="Sprite" parent="Menu/HBoxContainer/CenterContainer"]
+position = Vector2( 320.346, 335.166 )
+scale = Vector2( -17.3337, 16.6818 )
+texture = ExtResource( 8 )
+
+[node name="Fade" parent="." instance=ExtResource( 5 )]
+visible = false
+[connection signal="fade_finished" from="Fade" to="." method="_on_Fade_fade_finished"]

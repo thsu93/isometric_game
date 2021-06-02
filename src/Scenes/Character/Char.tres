@@ -1,0 +1,325 @@
+[gd_resource type="SpriteFrames" load_steps=241 format=2]
+
+[ext_resource path="res://assets/CharSprites/IdleE/0002.png" type="Texture" id=1]
+[ext_resource path="res://assets/CharSprites/IdleE/0003.png" type="Texture" id=2]
+[ext_resource path="res://assets/CharSprites/IdleW/0005.png" type="Texture" id=3]
+[ext_resource path="res://assets/CharSprites/IdleW/0007.png" type="Texture" id=4]
+[ext_resource path="res://assets/CharSprites/IdleW/0011.png" type="Texture" id=5]
+[ext_resource path="res://assets/CharSprites/IdleNE/0002.png" type="Texture" id=6]
+[ext_resource path="res://assets/CharSprites/IdleNE/0005.png" type="Texture" id=7]
+[ext_resource path="res://assets/CharSprites/IdleNE/0001.png" type="Texture" id=8]
+[ext_resource path="res://assets/CharSprites/IdleE/0001.png" type="Texture" id=9]
+[ext_resource path="res://assets/CharSprites/IdleE/0009.png" type="Texture" id=10]
+[ext_resource path="res://assets/CharSprites/IdleW/0009.png" type="Texture" id=11]
+[ext_resource path="res://assets/CharSprites/IdleW/0012.png" type="Texture" id=12]
+[ext_resource path="res://assets/CharSprites/IdleW/0006.png" type="Texture" id=13]
+[ext_resource path="res://assets/CharSprites/IdleNE/0003.png" type="Texture" id=14]
+[ext_resource path="res://assets/CharSprites/IdleW/0014.png" type="Texture" id=15]
+[ext_resource path="res://assets/CharSprites/IdleNE/0004.png" type="Texture" id=16]
+[ext_resource path="res://assets/CharSprites/IdleW/0008.png" type="Texture" id=17]
+[ext_resource path="res://assets/CharSprites/IdleW/0010.png" type="Texture" id=18]
+[ext_resource path="res://assets/CharSprites/IdleW/0013.png" type="Texture" id=19]
+[ext_resource path="res://assets/CharSprites/IdleW/0015.png" type="Texture" id=20]
+[ext_resource path="res://assets/CharSprites/IdleE/0006.png" type="Texture" id=21]
+[ext_resource path="res://assets/CharSprites/IdleE/0010.png" type="Texture" id=22]
+[ext_resource path="res://assets/CharSprites/IdleE/0008.png" type="Texture" id=23]
+[ext_resource path="res://assets/CharSprites/IdleE/0007.png" type="Texture" id=24]
+[ext_resource path="res://assets/CharSprites/IdleNE/0009.png" type="Texture" id=25]
+[ext_resource path="res://assets/CharSprites/IdleW/0002.png" type="Texture" id=26]
+[ext_resource path="res://assets/CharSprites/IdleE/0005.png" type="Texture" id=27]
+[ext_resource path="res://assets/CharSprites/IdleW/0003.png" type="Texture" id=28]
+[ext_resource path="res://assets/CharSprites/IdleNE/0006.png" type="Texture" id=29]
+[ext_resource path="res://assets/CharSprites/IdleNE/0008.png" type="Texture" id=30]
+[ext_resource path="res://assets/CharSprites/IdleE/0004.png" type="Texture" id=31]
+[ext_resource path="res://assets/CharSprites/IdleNE/0007.png" type="Texture" id=32]
+[ext_resource path="res://assets/CharSprites/IdleE/0015.png" type="Texture" id=33]
+[ext_resource path="res://assets/CharSprites/IdleW/0001.png" type="Texture" id=34]
+[ext_resource path="res://assets/CharSprites/IdleW/0004.png" type="Texture" id=35]
+[ext_resource path="res://assets/CharSprites/IdleSW/0013.png" type="Texture" id=36]
+[ext_resource path="res://assets/CharSprites/IdleSE/0006.png" type="Texture" id=37]
+[ext_resource path="res://assets/CharSprites/IdleS/0015.png" type="Texture" id=38]
+[ext_resource path="res://assets/CharSprites/WalkE/0001.png" type="Texture" id=39]
+[ext_resource path="res://assets/CharSprites/WalkE/0002.png" type="Texture" id=40]
+[ext_resource path="res://assets/CharSprites/IdleSE/0008.png" type="Texture" id=41]
+[ext_resource path="res://assets/CharSprites/IdleSE/0011.png" type="Texture" id=42]
+[ext_resource path="res://assets/CharSprites/IdleSW/0004.png" type="Texture" id=43]
+[ext_resource path="res://assets/CharSprites/IdleS/0001.png" type="Texture" id=44]
+[ext_resource path="res://assets/CharSprites/IdleSW/0006.png" type="Texture" id=45]
+[ext_resource path="res://assets/CharSprites/IdleSW/0007.png" type="Texture" id=46]
+[ext_resource path="res://assets/CharSprites/IdleSW/0014.png" type="Texture" id=47]
+[ext_resource path="res://assets/CharSprites/IdleSE/0005.png" type="Texture" id=48]
+[ext_resource path="res://assets/CharSprites/IdleSE/0013.png" type="Texture" id=49]
+[ext_resource path="res://assets/CharSprites/IdleSE/0015.png" type="Texture" id=50]
+[ext_resource path="res://assets/CharSprites/IdleS/0009.png" type="Texture" id=51]
+[ext_resource path="res://assets/CharSprites/IdleSE/0003.png" type="Texture" id=52]
+[ext_resource path="res://assets/CharSprites/IdleS/0010.png" type="Texture" id=53]
+[ext_resource path="res://assets/CharSprites/IdleS/0013.png" type="Texture" id=54]
+[ext_resource path="res://assets/CharSprites/IdleSW/0003.png" type="Texture" id=55]
+[ext_resource path="res://assets/CharSprites/WalkE/0003.png" type="Texture" id=56]
+[ext_resource path="res://assets/CharSprites/IdleSE/0002.png" type="Texture" id=57]
+[ext_resource path="res://assets/CharSprites/IdleSE/0004.png" type="Texture" id=58]
+[ext_resource path="res://assets/CharSprites/IdleSE/0010.png" type="Texture" id=59]
+[ext_resource path="res://assets/CharSprites/IdleS/0003.png" type="Texture" id=60]
+[ext_resource path="res://assets/CharSprites/IdleS/0006.png" type="Texture" id=61]
+[ext_resource path="res://assets/CharSprites/IdleS/0014.png" type="Texture" id=62]
+[ext_resource path="res://assets/CharSprites/IdleS/0004.png" type="Texture" id=63]
+[ext_resource path="res://assets/CharSprites/IdleSW/0001.png" type="Texture" id=64]
+[ext_resource path="res://assets/CharSprites/IdleSW/0009.png" type="Texture" id=65]
+[ext_resource path="res://assets/CharSprites/IdleS/0007.png" type="Texture" id=66]
+[ext_resource path="res://assets/CharSprites/IdleSW/0015.png" type="Texture" id=67]
+[ext_resource path="res://assets/CharSprites/IdleSW/0008.png" type="Texture" id=68]
+[ext_resource path="res://assets/CharSprites/IdleSE/0007.png" type="Texture" id=69]
+[ext_resource path="res://assets/CharSprites/WalkE/0004.png" type="Texture" id=70]
+[ext_resource path="res://assets/CharSprites/IdleSE/0014.png" type="Texture" id=71]
+[ext_resource path="res://assets/CharSprites/IdleS/0011.png" type="Texture" id=72]
+[ext_resource path="res://assets/CharSprites/IdleS/0012.png" type="Texture" id=73]
+[ext_resource path="res://assets/CharSprites/IdleS/0002.png" type="Texture" id=74]
+[ext_resource path="res://assets/CharSprites/IdleSE/0009.png" type="Texture" id=75]
+[ext_resource path="res://assets/CharSprites/IdleS/0005.png" type="Texture" id=76]
+[ext_resource path="res://assets/CharSprites/IdleSE/0001.png" type="Texture" id=77]
+[ext_resource path="res://assets/CharSprites/IdleS/0008.png" type="Texture" id=78]
+[ext_resource path="res://assets/CharSprites/IdleSW/0002.png" type="Texture" id=79]
+[ext_resource path="res://assets/CharSprites/IdleSW/0005.png" type="Texture" id=80]
+[ext_resource path="res://assets/CharSprites/IdleSE/0012.png" type="Texture" id=81]
+[ext_resource path="res://assets/CharSprites/IdleSW/0010.png" type="Texture" id=82]
+[ext_resource path="res://assets/CharSprites/IdleSW/0011.png" type="Texture" id=83]
+[ext_resource path="res://assets/CharSprites/IdleSW/0012.png" type="Texture" id=84]
+[ext_resource path="res://assets/CharSprites/WalkE/0015.png" type="Texture" id=85]
+[ext_resource path="res://assets/CharSprites/WalkNW/0006.png" type="Texture" id=86]
+[ext_resource path="res://assets/CharSprites/WalkNW/0007.png" type="Texture" id=87]
+[ext_resource path="res://assets/CharSprites/WalkE/0011.png" type="Texture" id=88]
+[ext_resource path="res://assets/CharSprites/WalkN/0006.png" type="Texture" id=89]
+[ext_resource path="res://assets/CharSprites/WalkN/0012.png" type="Texture" id=90]
+[ext_resource path="res://assets/CharSprites/WalkNE/0001.png" type="Texture" id=91]
+[ext_resource path="res://assets/CharSprites/WalkNE/0010.png" type="Texture" id=92]
+[ext_resource path="res://assets/CharSprites/WalkNW/0003.png" type="Texture" id=93]
+[ext_resource path="res://assets/CharSprites/WalkS/0001.png" type="Texture" id=94]
+[ext_resource path="res://assets/CharSprites/WalkS/0006.png" type="Texture" id=95]
+[ext_resource path="res://assets/CharSprites/WalkN/0014.png" type="Texture" id=96]
+[ext_resource path="res://assets/CharSprites/WalkE/0014.png" type="Texture" id=97]
+[ext_resource path="res://assets/CharSprites/WalkNE/0004.png" type="Texture" id=98]
+[ext_resource path="res://assets/CharSprites/WalkNW/0002.png" type="Texture" id=99]
+[ext_resource path="res://assets/CharSprites/WalkNW/0004.png" type="Texture" id=100]
+[ext_resource path="res://assets/CharSprites/WalkNE/0005.png" type="Texture" id=101]
+[ext_resource path="res://assets/CharSprites/WalkNW/0010.png" type="Texture" id=102]
+[ext_resource path="res://assets/CharSprites/WalkE/0013.png" type="Texture" id=103]
+[ext_resource path="res://assets/CharSprites/WalkE/0008.png" type="Texture" id=104]
+[ext_resource path="res://assets/CharSprites/WalkN/0005.png" type="Texture" id=105]
+[ext_resource path="res://assets/CharSprites/WalkN/0007.png" type="Texture" id=106]
+[ext_resource path="res://assets/CharSprites/WalkN/0015.png" type="Texture" id=107]
+[ext_resource path="res://assets/CharSprites/WalkNE/0003.png" type="Texture" id=108]
+[ext_resource path="res://assets/CharSprites/WalkE/0009.png" type="Texture" id=109]
+[ext_resource path="res://assets/CharSprites/WalkNE/0009.png" type="Texture" id=110]
+[ext_resource path="res://assets/CharSprites/WalkNE/0013.png" type="Texture" id=111]
+[ext_resource path="res://assets/CharSprites/WalkNE/0008.png" type="Texture" id=112]
+[ext_resource path="res://assets/CharSprites/WalkNW/0005.png" type="Texture" id=113]
+[ext_resource path="res://assets/CharSprites/WalkN/0004.png" type="Texture" id=114]
+[ext_resource path="res://assets/CharSprites/WalkNE/0012.png" type="Texture" id=115]
+[ext_resource path="res://assets/CharSprites/WalkE/0010.png" type="Texture" id=116]
+[ext_resource path="res://assets/CharSprites/WalkNE/0014.png" type="Texture" id=117]
+[ext_resource path="res://assets/CharSprites/WalkNW/0008.png" type="Texture" id=118]
+[ext_resource path="res://assets/CharSprites/WalkNW/0009.png" type="Texture" id=119]
+[ext_resource path="res://assets/CharSprites/WalkNW/0012.png" type="Texture" id=120]
+[ext_resource path="res://assets/CharSprites/WalkE/0006.png" type="Texture" id=121]
+[ext_resource path="res://assets/CharSprites/WalkNW/0013.png" type="Texture" id=122]
+[ext_resource path="res://assets/CharSprites/WalkS/0002.png" type="Texture" id=123]
+[ext_resource path="res://assets/CharSprites/WalkS/0005.png" type="Texture" id=124]
+[ext_resource path="res://assets/CharSprites/WalkNE/0007.png" type="Texture" id=125]
+[ext_resource path="res://assets/CharSprites/WalkS/0007.png" type="Texture" id=126]
+[ext_resource path="res://assets/CharSprites/WalkE/0005.png" type="Texture" id=127]
+[ext_resource path="res://assets/CharSprites/WalkN/0010.png" type="Texture" id=128]
+[ext_resource path="res://assets/CharSprites/WalkN/0013.png" type="Texture" id=129]
+[ext_resource path="res://assets/CharSprites/WalkN/0001.png" type="Texture" id=130]
+[ext_resource path="res://assets/CharSprites/WalkN/0008.png" type="Texture" id=131]
+[ext_resource path="res://assets/CharSprites/WalkN/0009.png" type="Texture" id=132]
+[ext_resource path="res://assets/CharSprites/WalkNE/0002.png" type="Texture" id=133]
+[ext_resource path="res://assets/CharSprites/WalkNE/0011.png" type="Texture" id=134]
+[ext_resource path="res://assets/CharSprites/WalkNE/0015.png" type="Texture" id=135]
+[ext_resource path="res://assets/CharSprites/WalkNW/0015.png" type="Texture" id=136]
+[ext_resource path="res://assets/CharSprites/WalkNW/0014.png" type="Texture" id=137]
+[ext_resource path="res://assets/CharSprites/WalkNE/0006.png" type="Texture" id=138]
+[ext_resource path="res://assets/CharSprites/WalkS/0003.png" type="Texture" id=139]
+[ext_resource path="res://assets/CharSprites/WalkNW/0011.png" type="Texture" id=140]
+[ext_resource path="res://assets/CharSprites/WalkS/0004.png" type="Texture" id=141]
+[ext_resource path="res://assets/CharSprites/WalkE/0012.png" type="Texture" id=142]
+[ext_resource path="res://assets/CharSprites/WalkS/0008.png" type="Texture" id=143]
+[ext_resource path="res://assets/CharSprites/WalkN/0003.png" type="Texture" id=144]
+[ext_resource path="res://assets/CharSprites/WalkN/0011.png" type="Texture" id=145]
+[ext_resource path="res://assets/CharSprites/WalkN/0002.png" type="Texture" id=146]
+[ext_resource path="res://assets/CharSprites/WalkE/0007.png" type="Texture" id=147]
+[ext_resource path="res://assets/CharSprites/WalkNW/0001.png" type="Texture" id=148]
+[ext_resource path="res://assets/CharSprites/WalkSE/0002.png" type="Texture" id=149]
+[ext_resource path="res://assets/CharSprites/WalkSE/0003.png" type="Texture" id=150]
+[ext_resource path="res://assets/CharSprites/WalkSE/0004.png" type="Texture" id=151]
+[ext_resource path="res://assets/CharSprites/WalkS/0015.png" type="Texture" id=152]
+[ext_resource path="res://assets/CharSprites/WalkSE/0005.png" type="Texture" id=153]
+[ext_resource path="res://assets/CharSprites/WalkSE/0006.png" type="Texture" id=154]
+[ext_resource path="res://assets/CharSprites/WalkSE/0001.png" type="Texture" id=155]
+[ext_resource path="res://assets/CharSprites/WalkS/0012.png" type="Texture" id=156]
+[ext_resource path="res://assets/CharSprites/WalkS/0013.png" type="Texture" id=157]
+[ext_resource path="res://assets/CharSprites/WalkS/0014.png" type="Texture" id=158]
+[ext_resource path="res://assets/CharSprites/WalkS/0009.png" type="Texture" id=159]
+[ext_resource path="res://assets/CharSprites/WalkS/0010.png" type="Texture" id=160]
+[ext_resource path="res://assets/CharSprites/WalkS/0011.png" type="Texture" id=161]
+[ext_resource path="res://assets/CharSprites/IdleN/0011.png" type="Texture" id=162]
+[ext_resource path="res://assets/CharSprites/IdleN/0002.png" type="Texture" id=163]
+[ext_resource path="res://assets/CharSprites/IdleN/0007.png" type="Texture" id=164]
+[ext_resource path="res://assets/CharSprites/IdleNW/0011.png" type="Texture" id=165]
+[ext_resource path="res://assets/CharSprites/IdleNE/0015.png" type="Texture" id=166]
+[ext_resource path="res://assets/CharSprites/IdleE/0014.png" type="Texture" id=167]
+[ext_resource path="res://assets/CharSprites/IdleNE/0014.png" type="Texture" id=168]
+[ext_resource path="res://assets/CharSprites/IdleNW/0001.png" type="Texture" id=169]
+[ext_resource path="res://assets/CharSprites/IdleNW/0005.png" type="Texture" id=170]
+[ext_resource path="res://assets/CharSprites/IdleN/0013.png" type="Texture" id=171]
+[ext_resource path="res://assets/CharSprites/IdleNE/0013.png" type="Texture" id=172]
+[ext_resource path="res://assets/CharSprites/IdleNE/0011.png" type="Texture" id=173]
+[ext_resource path="res://assets/CharSprites/IdleNW/0015.png" type="Texture" id=174]
+[ext_resource path="res://assets/CharSprites/IdleNW/0014.png" type="Texture" id=175]
+[ext_resource path="res://assets/CharSprites/IdleNW/0010.png" type="Texture" id=176]
+[ext_resource path="res://assets/CharSprites/IdleN/0004.png" type="Texture" id=177]
+[ext_resource path="res://assets/CharSprites/IdleNW/0004.png" type="Texture" id=178]
+[ext_resource path="res://assets/CharSprites/IdleNE/0012.png" type="Texture" id=179]
+[ext_resource path="res://assets/CharSprites/IdleNW/0007.png" type="Texture" id=180]
+[ext_resource path="res://assets/CharSprites/IdleE/0012.png" type="Texture" id=181]
+[ext_resource path="res://assets/CharSprites/IdleN/0015.png" type="Texture" id=182]
+[ext_resource path="res://assets/CharSprites/IdleNW/0013.png" type="Texture" id=183]
+[ext_resource path="res://assets/CharSprites/IdleNW/0008.png" type="Texture" id=184]
+[ext_resource path="res://assets/CharSprites/IdleN/0003.png" type="Texture" id=185]
+[ext_resource path="res://assets/CharSprites/IdleNW/0006.png" type="Texture" id=186]
+[ext_resource path="res://assets/CharSprites/IdleN/0008.png" type="Texture" id=187]
+[ext_resource path="res://assets/CharSprites/IdleN/0001.png" type="Texture" id=188]
+[ext_resource path="res://assets/CharSprites/IdleE/0011.png" type="Texture" id=189]
+[ext_resource path="res://assets/CharSprites/IdleNW/0009.png" type="Texture" id=190]
+[ext_resource path="res://assets/CharSprites/IdleNW/0012.png" type="Texture" id=191]
+[ext_resource path="res://assets/CharSprites/IdleNW/0002.png" type="Texture" id=192]
+[ext_resource path="res://assets/CharSprites/IdleN/0012.png" type="Texture" id=193]
+[ext_resource path="res://assets/CharSprites/IdleN/0005.png" type="Texture" id=194]
+[ext_resource path="res://assets/CharSprites/IdleN/0014.png" type="Texture" id=195]
+[ext_resource path="res://assets/CharSprites/IdleN/0006.png" type="Texture" id=196]
+[ext_resource path="res://assets/CharSprites/IdleNE/0010.png" type="Texture" id=197]
+[ext_resource path="res://assets/CharSprites/IdleN/0009.png" type="Texture" id=198]
+[ext_resource path="res://assets/CharSprites/IdleNW/0003.png" type="Texture" id=199]
+[ext_resource path="res://assets/CharSprites/IdleN/0010.png" type="Texture" id=200]
+[ext_resource path="res://assets/CharSprites/IdleE/0013.png" type="Texture" id=201]
+[ext_resource path="res://assets/CharSprites/WalkSE/0011.png" type="Texture" id=202]
+[ext_resource path="res://assets/CharSprites/WalkSW/0013.png" type="Texture" id=203]
+[ext_resource path="res://assets/CharSprites/WalkSW/0008.png" type="Texture" id=204]
+[ext_resource path="res://assets/CharSprites/WalkW/0007.png" type="Texture" id=205]
+[ext_resource path="res://assets/CharSprites/WalkW/0014.png" type="Texture" id=206]
+[ext_resource path="res://assets/CharSprites/WalkSE/0014.png" type="Texture" id=207]
+[ext_resource path="res://assets/CharSprites/WalkSE/0015.png" type="Texture" id=208]
+[ext_resource path="res://assets/CharSprites/WalkSW/0012.png" type="Texture" id=209]
+[ext_resource path="res://assets/CharSprites/WalkSW/0011.png" type="Texture" id=210]
+[ext_resource path="res://assets/CharSprites/WalkSW/0015.png" type="Texture" id=211]
+[ext_resource path="res://assets/CharSprites/WalkSW/0004.png" type="Texture" id=212]
+[ext_resource path="res://assets/CharSprites/WalkW/0002.png" type="Texture" id=213]
+[ext_resource path="res://assets/CharSprites/WalkW/0003.png" type="Texture" id=214]
+[ext_resource path="res://assets/CharSprites/WalkW/0015.png" type="Texture" id=215]
+[ext_resource path="res://assets/CharSprites/WalkSE/0012.png" type="Texture" id=216]
+[ext_resource path="res://assets/CharSprites/WalkSW/0006.png" type="Texture" id=217]
+[ext_resource path="res://assets/CharSprites/WalkW/0005.png" type="Texture" id=218]
+[ext_resource path="res://assets/CharSprites/WalkSE/0010.png" type="Texture" id=219]
+[ext_resource path="res://assets/CharSprites/WalkSW/0007.png" type="Texture" id=220]
+[ext_resource path="res://assets/CharSprites/WalkW/0010.png" type="Texture" id=221]
+[ext_resource path="res://assets/CharSprites/WalkSW/0005.png" type="Texture" id=222]
+[ext_resource path="res://assets/CharSprites/WalkW/0012.png" type="Texture" id=223]
+[ext_resource path="res://assets/CharSprites/WalkW/0009.png" type="Texture" id=224]
+[ext_resource path="res://assets/CharSprites/WalkW/0006.png" type="Texture" id=225]
+[ext_resource path="res://assets/CharSprites/WalkW/0013.png" type="Texture" id=226]
+[ext_resource path="res://assets/CharSprites/WalkW/0011.png" type="Texture" id=227]
+[ext_resource path="res://assets/CharSprites/WalkSW/0001.png" type="Texture" id=228]
+[ext_resource path="res://assets/CharSprites/WalkW/0001.png" type="Texture" id=229]
+[ext_resource path="res://assets/CharSprites/WalkSE/0009.png" type="Texture" id=230]
+[ext_resource path="res://assets/CharSprites/WalkSW/0010.png" type="Texture" id=231]
+[ext_resource path="res://assets/CharSprites/WalkSE/0013.png" type="Texture" id=232]
+[ext_resource path="res://assets/CharSprites/WalkSW/0014.png" type="Texture" id=233]
+[ext_resource path="res://assets/CharSprites/WalkSE/0008.png" type="Texture" id=234]
+[ext_resource path="res://assets/CharSprites/WalkSW/0003.png" type="Texture" id=235]
+[ext_resource path="res://assets/CharSprites/WalkSW/0009.png" type="Texture" id=236]
+[ext_resource path="res://assets/CharSprites/WalkW/0008.png" type="Texture" id=237]
+[ext_resource path="res://assets/CharSprites/WalkSW/0002.png" type="Texture" id=238]
+[ext_resource path="res://assets/CharSprites/WalkW/0004.png" type="Texture" id=239]
+[ext_resource path="res://assets/CharSprites/WalkSE/0007.png" type="Texture" id=240]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 34 ), ExtResource( 26 ), ExtResource( 28 ), ExtResource( 35 ), ExtResource( 3 ), ExtResource( 13 ), ExtResource( 4 ), ExtResource( 17 ), ExtResource( 11 ), ExtResource( 18 ), ExtResource( 5 ), ExtResource( 12 ), ExtResource( 19 ), ExtResource( 15 ), ExtResource( 20 ) ],
+"loop": true,
+"name": "IdleW",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 228 ), ExtResource( 238 ), ExtResource( 235 ), ExtResource( 212 ), ExtResource( 222 ), ExtResource( 217 ), ExtResource( 220 ), ExtResource( 204 ), ExtResource( 236 ), ExtResource( 231 ), ExtResource( 210 ), ExtResource( 209 ), ExtResource( 203 ), ExtResource( 233 ), ExtResource( 211 ) ],
+"loop": true,
+"name": "WalkSW",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 229 ), ExtResource( 213 ), ExtResource( 214 ), ExtResource( 239 ), ExtResource( 218 ), ExtResource( 225 ), ExtResource( 205 ), ExtResource( 237 ), ExtResource( 224 ), ExtResource( 221 ), ExtResource( 227 ), ExtResource( 223 ), ExtResource( 226 ), ExtResource( 206 ), ExtResource( 215 ) ],
+"loop": true,
+"name": "WalkW",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 44 ), ExtResource( 74 ), ExtResource( 60 ), ExtResource( 63 ), ExtResource( 76 ), ExtResource( 61 ), ExtResource( 66 ), ExtResource( 78 ), ExtResource( 51 ), ExtResource( 53 ), ExtResource( 72 ), ExtResource( 73 ), ExtResource( 54 ), ExtResource( 62 ), ExtResource( 38 ) ],
+"loop": true,
+"name": "IdleS",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 155 ), ExtResource( 149 ), ExtResource( 150 ), ExtResource( 151 ), ExtResource( 153 ), ExtResource( 154 ), ExtResource( 240 ), ExtResource( 234 ), ExtResource( 230 ), ExtResource( 219 ), ExtResource( 202 ), ExtResource( 216 ), ExtResource( 232 ), ExtResource( 207 ), ExtResource( 208 ) ],
+"loop": true,
+"name": "WalkSE",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 148 ), ExtResource( 99 ), ExtResource( 93 ), ExtResource( 100 ), ExtResource( 113 ), ExtResource( 86 ), ExtResource( 87 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 102 ), ExtResource( 140 ), ExtResource( 120 ), ExtResource( 122 ), ExtResource( 137 ), ExtResource( 136 ) ],
+"loop": true,
+"name": "WalkNW",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 77 ), ExtResource( 57 ), ExtResource( 52 ), ExtResource( 58 ), ExtResource( 48 ), ExtResource( 37 ), ExtResource( 69 ), ExtResource( 41 ), ExtResource( 75 ), ExtResource( 59 ), ExtResource( 42 ), ExtResource( 81 ), ExtResource( 49 ), ExtResource( 71 ), ExtResource( 50 ) ],
+"loop": true,
+"name": "IdleSE",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 91 ), ExtResource( 133 ), ExtResource( 108 ), ExtResource( 98 ), ExtResource( 101 ), ExtResource( 138 ), ExtResource( 125 ), ExtResource( 112 ), ExtResource( 110 ), ExtResource( 92 ), ExtResource( 134 ), ExtResource( 115 ), ExtResource( 111 ), ExtResource( 117 ), ExtResource( 135 ) ],
+"loop": true,
+"name": "WalkNE",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 169 ), ExtResource( 192 ), ExtResource( 199 ), ExtResource( 178 ), ExtResource( 170 ), ExtResource( 186 ), ExtResource( 180 ), ExtResource( 184 ), ExtResource( 190 ), ExtResource( 176 ), ExtResource( 165 ), ExtResource( 191 ), ExtResource( 183 ), ExtResource( 175 ), ExtResource( 174 ) ],
+"loop": true,
+"name": "IdleNW",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 94 ), ExtResource( 123 ), ExtResource( 139 ), ExtResource( 141 ), ExtResource( 124 ), ExtResource( 95 ), ExtResource( 126 ), ExtResource( 143 ), ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 158 ), ExtResource( 152 ) ],
+"loop": true,
+"name": "WalkS",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 6 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 7 ), ExtResource( 29 ), ExtResource( 32 ), ExtResource( 30 ), ExtResource( 25 ), ExtResource( 197 ), ExtResource( 173 ), ExtResource( 179 ), ExtResource( 172 ), ExtResource( 168 ), ExtResource( 166 ) ],
+"loop": true,
+"name": "IdleNE",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 130 ), ExtResource( 146 ), ExtResource( 144 ), ExtResource( 114 ), ExtResource( 105 ), ExtResource( 89 ), ExtResource( 106 ), ExtResource( 131 ), ExtResource( 132 ), ExtResource( 128 ), ExtResource( 145 ), ExtResource( 90 ), ExtResource( 129 ), ExtResource( 96 ), ExtResource( 107 ) ],
+"loop": true,
+"name": "WalkN",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 79 ), ExtResource( 55 ), ExtResource( 43 ), ExtResource( 80 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 68 ), ExtResource( 65 ), ExtResource( 82 ), ExtResource( 83 ), ExtResource( 84 ), ExtResource( 36 ), ExtResource( 47 ), ExtResource( 67 ) ],
+"loop": true,
+"name": "IdleSW",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 188 ), ExtResource( 163 ), ExtResource( 185 ), ExtResource( 177 ), ExtResource( 194 ), ExtResource( 196 ), ExtResource( 164 ), ExtResource( 187 ), ExtResource( 198 ), ExtResource( 200 ), ExtResource( 162 ), ExtResource( 193 ), ExtResource( 171 ), ExtResource( 195 ), ExtResource( 182 ) ],
+"loop": true,
+"name": "IdleN",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 1 ), ExtResource( 2 ), ExtResource( 31 ), ExtResource( 27 ), ExtResource( 21 ), ExtResource( 24 ), ExtResource( 23 ), ExtResource( 10 ), ExtResource( 22 ), ExtResource( 189 ), ExtResource( 181 ), ExtResource( 201 ), ExtResource( 167 ), ExtResource( 33 ) ],
+"loop": true,
+"name": "IdleE",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 39 ), ExtResource( 40 ), ExtResource( 56 ), ExtResource( 70 ), ExtResource( 127 ), ExtResource( 121 ), ExtResource( 147 ), ExtResource( 104 ), ExtResource( 109 ), ExtResource( 116 ), ExtResource( 88 ), ExtResource( 142 ), ExtResource( 103 ), ExtResource( 97 ), ExtResource( 85 ) ],
+"loop": true,
+"name": "WalkE",
+"speed": 12.0
+} ]
